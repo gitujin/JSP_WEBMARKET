@@ -7,13 +7,6 @@
 	href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 <body>
 	<%@ page import="java.util.Date" %>
-	<nav class = "navbar navbar-expand navbar-dark bg-dark">
-		<div class = "container">
-			<div class = "navbar-header">
-				<a class = "navbar-brand" href="./welcome.jsp">Home</a>
-			</div>
-		</div>
-	</nav>
 	<%@ include file = "menu.jsp" %>
 	<%! String greeting = "웹 쇼핑몰에 오신 것을 환영합니다";
 	String tagline = "welcome to Web Market!" ;%>
@@ -30,6 +23,7 @@
 				<%= tagline %>
 			</h3>
 			<%
+				response.setIntHeader("Refresh",5);
 				Date day = new java.util.Date();
 				String am_pm;
 				int hour = day.getHours();
