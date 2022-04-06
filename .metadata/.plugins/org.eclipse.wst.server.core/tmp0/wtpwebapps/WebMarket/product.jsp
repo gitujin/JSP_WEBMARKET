@@ -4,8 +4,7 @@
 <jsp:useBean id="productDAO" class="dao.ProductRepository" scope="session"/>
 <html>
 <head>
-<link rel="stylesheet"
-	href="http://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="./resource/css/bootstrap.min.css" />
 <title>상품 상세 정보</title>
 </head>
 <body>
@@ -20,6 +19,10 @@
 		ProductRepository dao = ProductRepository.getInstance();
 		Product product = dao.getProductById(id);
 	%>
+	<div class="col-md-5">
+		<img src="c:/upload/<%=product.getFilename() %>" style="width: 100%">
+	</div>
+	
 	<div class="container">
 		<div class ="row">
 			<div class = "col-md-6">

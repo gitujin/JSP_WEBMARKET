@@ -1,0 +1,15 @@
+127.0.0.1 - - [30/Mar/2022:17:07:21 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:17:07:24 +0900] "GET /WebMarket/product.jsp HTTP/1.1" 500 2598
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:17:07:50 +0900] "GET /WebMarket/products.jsp HTTP/1.1" 200 1760
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:17:07:50 +0900] "GET /WebMarket/resources/images/P1236.png HTTP/1.1" 404 855
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:17:07:50 +0900] "GET /WebMarket/resource/css/bootstrap.min.css HTTP/1.1" 200 159515
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:17:07:51 +0900] "GET /WebMarket/resources/images/null HTTP/1.1" 404 850
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:17:07:58 +0900] "GET /WebMarket/product.jsp?id=P1234 HTTP/1.1" 200 1280
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:17:07:58 +0900] "GET /WebMarket/resources/images/P1236.png HTTP/1.1" 404 855
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:17:07:58 +0900] "GET /WebMarket/resources/css/bootstrap.min.css HTTP/1.1" 404 860
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:17:08:30 +0900] "GET /WebMarket/products.jsp HTTP/1.1" 200 1751
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:17:08:30 +0900] "GET /WebMarket/resources/images/P1236.png HTTP/1.1" 404 855
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:17:08:30 +0900] "GET /WebMarket/resources/images/null HTTP/1.1" 404 850
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:17:08:33 +0900] "GET /WebMarket/product.jsp?id=P1234 HTTP/1.1" 200 1274
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:17:08:33 +0900] "GET /WebMarket/resources/css/bootstrap.min.css HTTP/1.1" 404 860
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:17:08:33 +0900] "GET /WebMarket/resources/images/P1236.png HTTP/1.1" 404 855
